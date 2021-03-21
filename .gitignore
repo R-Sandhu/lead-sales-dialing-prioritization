@@ -1,0 +1,37 @@
+# Ignore hidden and setup files 
+
+setup.py
+
+# Installer logs
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Unit test
+.tox/
+.cache
+
+# DotEnv configuration
+.env
+
+# Pycharm
+.idea
+
+# Jupyter NB Checkpoints
+.ipynb_checkpoints/
+.python-version
+
+# exclude data from source control by default
+# /data/
+
+# Mac OS-specific storage files
+.DS_Store
+
+# vim
+*.swp
+*.swo
+
+# Mypy cache
+src/__pycache__/
+src/data/__pycache__/
+src/models/__pycache__/
+.mypy_cache/
